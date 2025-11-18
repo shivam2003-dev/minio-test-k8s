@@ -5,9 +5,12 @@ This directory contains the configuration files and documentation for deploying 
 ## Files
 
 - `deployment-guide.md` - Comprehensive technical documentation
+- `HELM-CHARTS-GUIDE.md` - Official vs Community Helm Charts guide
 - `minio-deployment.yaml` - Kubernetes Deployment and Service configuration
 - `minio-pvc.yaml` - PersistentVolumeClaim for MinIO storage
 - `minio-secret.yaml.example` - Example secret configuration (for reference)
+- `SINGLE-REPLICA-DEPLOYMENT-ANALYSIS.md` - Analysis of single replica deployment feasibility
+- `TEST-RESULTS.md` - Test results and verification
 
 ## Quick Start
 
@@ -41,7 +44,10 @@ This directory contains the configuration files and documentation for deploying 
 
 ## Documentation
 
-For detailed information, configuration options, limitations, and upgrade paths, see [deployment-guide.md](./deployment-guide.md).
+- **[deployment-guide.md](./deployment-guide.md)** - Detailed deployment guide with YAML configurations
+- **[HELM-CHARTS-GUIDE.md](./HELM-CHARTS-GUIDE.md)** - Guide to using official and community Helm charts
+- **[SINGLE-REPLICA-DEPLOYMENT-ANALYSIS.md](./SINGLE-REPLICA-DEPLOYMENT-ANALYSIS.md)** - Analysis of single replica deployment feasibility
+- **[TEST-RESULTS.md](./TEST-RESULTS.md)** - Test results and verification
 
 ## Important Notes
 
